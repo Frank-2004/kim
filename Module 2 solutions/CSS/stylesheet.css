@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box; 
+    font-family: arial;
+}
+p {
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+h2{
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 10px;
+}
+
+section{
+    height: 220px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 175%;
+}
+
+#sec1 {
+    background: gray; 
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#sec2 {
+    background: gray; 
+    margin-right:10px;
+    margin-top:10px;
+    border: 1px solid black;
+    position: relative;
+}
+#sec3 {
+    background: gray; 
+    margin-right:10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+#h21 {
+    background-color: magenta;
+    width: 70px;
+    color: black;
+    font-size:125%;
+    border: 1px solid black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    
+    }
+
+#h22 {
+    background-color: brown;
+    width: 70px;
+    color: white;
+    font-size: 125%;
+    border: 1px solid black;
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    }
+
+#h23 {
+    background-color: darkgoldenrod;
+    width: 70px;
+    color: black;
+    font-size: 125%;
+    border: 1px solid black;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    }
+
+@media  (max-width:767px) {
+    section { 
+        width: 100%;
+        background: gray; 
+        margin-right:10px;
+        margin-top: 10px;
+    }
+}
+
+@media  (min-width:992px) {
+    section { 
+        width: 30%;
+        float: left;
+        background: gray; 
+        margin-right:10px;
+        margin-top: 10px;
+        height: 250px;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    #sec1 {
+        width: 45%;
+        float: left;
+        margin-bottom: 10px;
+        margin-right: 20px;
+    }
+
+    #sec2 {
+        width: 45%;
+        float: left;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+
+    #sec3 {
+        width: 100%;
+        clear: left;
+    }
+}
